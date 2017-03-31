@@ -47,7 +47,8 @@ Reserve a product stock
 
 Also are available the CRUD for products and carts.
 
-#Products
+
+##Products
 
 **GET** localhost:8080/products
 
@@ -66,7 +67,8 @@ Also are available the CRUD for products and carts.
 }
 
 
-#Carts
+
+##Carts
 
 **GET** localhost:8080/carts
 
