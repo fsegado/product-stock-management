@@ -21,7 +21,7 @@ from the root directory.
 
 Add a product stock
 
-POST localhost:8080/products/{productId}/stocks
+**POST** localhost:8080/products/{productId}/stocks
 
 {
 	"stock" : 2
@@ -29,7 +29,7 @@ POST localhost:8080/products/{productId}/stocks
 
 Remove a product stock
 
-DELETE localhost:8080/products/{productId}/stocks
+**DELETE** localhost:8080/products/{productId}/stocks
 
 {
 	"stock" : 2
@@ -37,7 +37,7 @@ DELETE localhost:8080/products/{productId}/stocks
 
 Reserve a product stock
 
-POST localhost:8080/carts/1/reserve
+**POST** localhost:8080/carts/1/reserve
 
 {
 	"productId" : 1,
@@ -47,19 +47,19 @@ POST localhost:8080/carts/1/reserve
 
 Also are available the CRUD for products and carts.
 
-#Porducts
+#Products
 
-GET localhost:8080/products
+**GET** localhost:8080/products
 
-POST localhost:8080/products
+**POST** localhost:8080/products
 
 {
 	"stockAmount" : 1
 }
 
-DELETE localhost:8080/products/{productId}
+**DELETE** localhost:8080/products/{productId}
 
-UPDATE localhost:8080/products/{productId}
+**UPDATE** localhost:8080/products/{productId}
 
 {
 	"stockAmount" : 2
@@ -68,15 +68,15 @@ UPDATE localhost:8080/products/{productId}
 
 #Carts
 
-GET localhost:8080/carts
+**GET** localhost:8080/carts
 
-POST localhost:8080/carts
+**POST** localhost:8080/carts
 
 {}
 
-DELETE localhost:8080/carts/{cartId}
+**DELETE** localhost:8080/carts/{cartId}
 
-UPDATE localhost:8080/carts/{cartId}
+**UPDATE** localhost:8080/carts/{cartId}
 
 
 
@@ -85,5 +85,5 @@ UPDATE localhost:8080/carts/{cartId}
  - Swagger
  - Remove reserve
  - Initialize the H2 Database with products and carts by default
- - Update model
+ - Update model (tables and columns)
 
