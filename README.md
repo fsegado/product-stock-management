@@ -1,6 +1,6 @@
 # Product Stock Management
 
-This application is a product stock management as a REST microservice and a an embedded H2 database (empty by default).
+This application is a product stock management as a REST microservice and an embedded H2 database (empty by default).
 
 ### Requirements
 
